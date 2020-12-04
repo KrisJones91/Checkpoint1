@@ -1,0 +1,60 @@
+.cubs-bg{
+    background-image: url("https://cdn.vox-cdn.com/thumbor/IOR-1Wyd-YZgYUHwav2IYkR6Lvc=/0x501:6246x3066/1200x800/filters:focal(2758x933:3756x1931)/cdn.vox-cdn.com/uploads/chorus_image/image/62976681/usa_today_10888458.0.jpg");
+    min-height: 40vh;
+    background-size: cover;
+    bottom: 80%;
+}
+.bg-title{
+    background-color: rgb(255, 0, 34);
+    max-height: 200px;
+    margin: auto;
+    box-shadow: 1px 2px 2px;
+    
+}
+.card-header{
+    background-color: white;
+    width: 50%;
+    margin: 40px;
+    box-shadow: 1px 2px 2px;
+}
+
+.wins-section{
+    position: relative;
+}
+
+@media screen and (min-width: 730px){
+.bg-series{
+    
+    position: absolute;
+    top: 50px;
+    right: 100px;
+   
+   
+}
+}
+.bg-series{
+    background-color: red;
+    box-shadow: 1px 2px 2px;
+
+}
+
+.ws-text{
+    color: white;
+    text-align: center;
+}
+
+.card-lower{
+    background-color: red;
+    padding: 2%;
+    width: 50%;
+    margin: 40px;
+    box-shadow: 1px 2px 2px;
+}
+.card-lower1{
+    background-color: red;
+    padding: 3%;
+    width: 60%;
+    length: 60%;
+    margin: 10px;
+    box-shadow: 1px 2px 2px;
+}
