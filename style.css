@@ -5,19 +5,17 @@
 
 .cubs-bg{
     background-image: url("https://sportsnaut.com/wp-content/uploads/2020/06/General-view-of-Cubs-WrigleyField-during-MLB-game-scaled.jpg");
-    min-height: 70vh;
+    min-height: 65vh;
     background-size: cover;
     
     
 }
- .w-banner{
-    background-color: black;
-    background-size: 10px;
- }
+
 .card-header{
     background-color: white;
     width: 100%;
     box-shadow: 1px 2px 2px;
+    border-radius: 2%;
 }
 
 .wins-section{
@@ -42,9 +40,7 @@
     background: linear-gradient(to bottom, red, white);
 }
 
-.bg-ws{
-    background: linear-gradient(to bottom blue, red);
-}
+
 .ws-text{
     color: white;
     text-align: center;
@@ -62,6 +58,7 @@
 .card-lower1{
     background-color: red;
     padding: 3%;
+    border-radius: 2%;
     width: 60%;
     length: 60%;
     margin: 10px;
