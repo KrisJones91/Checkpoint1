@@ -19,17 +19,17 @@
 
 <body>
     <header>
-        <nav class="navbar sticky-top navbar-light bg-primary">
-            <a class="navbar-brand" href="#">Chicago Cubs</a>
+        <nav class="navbar sticky-top navbar-light bg-primary icon-nav">
+            <a class="navbar-brand" href="#"><i class="fas fa-baseball-ball"></i> Chicago Cubs</a>
         </nav>
         <div class="container-fluid">
-            <div class="row cubs-bg">
-                <div class="col-md-6">
-                    <div class="row px-3 py-3 card-header">
+            <div class="row cubs-bg py-5">
+                <div class="offset-1 col-md-5">
+                    <div class="row py-3 card-header">
                         <div class="col-md-12">
                             <form>
                                 <div class="form-group bg-userinfo ">
-                                    <label for="usersName">Cubbie Info</label>
+                                    <label for="usersName">Member Info</label>
                                     <input class="form-control" type="text" placeholder="Name">
                                     <br>
                                     <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -47,63 +47,84 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 bg-title">
-                    <h1 class="text-white text-center">Fly the "W"!!</h1>
-                    <p class="my-1 text-white text-center">Establsihed in 1876</p>
-                    <p class="text-black text-center">The Cubs were originally known as the White Stockings before
-                        changing
-                        their name to the Cubs in 1903.</p>
+                <div class="col-md-4 justify-content-center d-none d-none d-md-block d-lg-block">
+                    <h1 class="text-white "><b>Fly the "W"!</b></h1>
+                    <p class="text-white "><b>Establsihed in 1876</b></p>
+
                 </div>
             </div>
         </div>
-    </header>
-    <main class="container-fluid">
-        <section class="row wins-section bg-primary">
-            <div class="col-md-6 my-2 p-1 ws-text order-xs-2 order-sm-2">
-                <h3>World Series Titles</h3>
-                <h5>CHAMPS</h5>
-                <li>1907 vs Detroit Tigers (4-0)</li>
-                <li>1908 vs Detroit Tigers (4-0)</li>
-                <li>2016 vs Cleveland Indians (4-3)</li>
-            </div>
-            <div class=" col-md-4 col-lg-4 col-sm-12 bg-series order-xs-1 order-sm-1">
-                <p class="text-white text-center"><i class="fas fa-baseball-ball"></i> National League</p>
-                <p class="text-white text-center"><i class="fas fa-baseball-ball"></i> 3 Titles</p>
-                <p class="text-white text-center"> <i class="fas fa-baseball-ball"></i> Sammy Sosa</p>
-                <p class="text-white text-center"><i class="fas fa-baseball-ball"></i> Addison & Clark</p>
-            </div>
-        </section>
-        <section class="row justify-content-center align-items-center p-5">
-            <div class="col-md-4 my-5 ">
-                <img src="https://i.gifer.com/1f5f.gif" alt="">
-            </div>
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus fuga veniam placeat ex modi natus
-                    ipsum itaque laudantium sequi, odit nisi deleniti nulla reprehenderit magni. Cupiditate, officia?
-                    Maiores, blanditiis corporis.</p>
-                <button>click me</button>
-            </div>
-        </section>
-        <section class="row align-items-center justify-content-center">
-            <div class="col-md-3  card-lower">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero voluptatum sint accusamus,
-                    magnam neque veniam hic molestiae totam possimus. Officia ratione aliquam enim ex, nobis corrupti
-                    pariatur cumque aperiam?</p>
-            </div>
-            <div class="col-md-3  card-lower1">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero voluptatum sint accusamus,
-                    magnam neque veniam hic molestiae totam possimus. Officia ratione aliquam enim ex, nobis corrupti
-                    pariatur cumque aperiam?
-                    jdaksflkjasdhgadjns
-                </p>
-            </div>
-            <div class="col-md-3  card-lower">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero voluptatum sint accusamus,
-                    magnam neque veniam hic molestiae totam possimus. Officia ratione aliquam enim ex, nobis corrupti
-                    pariatur cumque aperiam?</p>
-            </div>
-        </section>
 
+
+        <main class="container-fluid">
+            <section class="row wins-section bg-primary">
+                <div class="col-md-6 my-2 p-1 ws-text order-xs-2 order-sm-2">
+                    <h3>World Series Titles</h3>
+                    <h5>CHAMPS</h5>
+                    <li>1907 vs Detroit Tigers (4-0)</li>
+                    <li>1908 vs Detroit Tigers (4-0)</li>
+                    <li>2016 vs Cleveland Indians (4-3)</li>
+                </div>
+                <div class=" col-md-4 col-lg-4 col-sm-12 bg-series order-xs-1 order-sm-1">
+                    <p class="text-white text-center"><i class="fas fa-baseball-ball"></i> National League</p>
+                    <p class="text-white text-center"><i class="fas fa-baseball-ball"></i> 3 Titles</p>
+                    <p class="text-white text-center"> <i class="fas fa-baseball-ball"></i> Sammy Sosa</p>
+                    <p class="text-white text-center"><i class="fas fa-baseball-ball"></i> Addison & Clark</p>
+                </div>
+            </section>
+            <section class="row justify-content-center align-items-center p-5">
+                <div class="offset-1 col-md-3 mx-3">
+                    <img src="https://i.gifer.com/1f5f.gif" alt="">
+                </div>
+                <div class="offset-2 col-md-6 p-1">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus fuga veniam placeat ex modi
+                        natus
+                        ipsum itaque laudantium sequi, odit nisi deleniti nulla reprehenderit magni. Cupiditate,
+                        officia?
+                        Maiores.</p>
+                    <button>Click</button>
+                </div>
+            </section>
+
+            <section class="row align-items-center bg-primary justify-content-center py-5">
+                <div class="col-md-3 card-lower text-center">
+
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero voluptatum sint
+                        accusamus,
+                        magnam neque veniam hic molestiae totam possimus. Officia ratione aliquam enim ex, nobis
+                        corrupti
+                        pariatur cumque aperiam?</p>
+                </div>
+                <div class="col-md-3 card-lower1 text-center">
+                    <i class="fas fa-baseball-ball"></i>
+                    <i class="fas fa-baseball-ball"></i>
+                    <i class="fas fa-baseball-ball"></i>
+                    <p> </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero voluptatum sint
+                        accusamus,
+                        magnam neque veniam hic molestiae totam possimus. Officia ratione aliquam enim ex, nobis
+                        corrupti
+                        pariatur cumque aperiam?
+                        jdaksflkjasdhgadjns
+                    </p>
+                </div>
+                <div class="col-md-3  card-lower text-center">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt libero voluptatum sint
+                        accusamus,
+                        magnam neque veniam hic molestiae totam possimus. Officia ratione aliquam enim ex, nobis
+                        corrupti
+                        pariatur cumque aperiam?</p>
+                </div>
+            </section>
+            <section class="row bg-warning">
+                <div class="col-12">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni earum repellendus inventore
+                        sint hic natus ipsum voluptate recusandae sunt harum, rem id eos dolore incidunt, laborum esse
+                        officia modi!</p>
+                </div>
+
+            </section>
+    </header>
     </main>
 
 

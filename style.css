@@ -1,20 +1,18 @@
+.icon-nav{
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAA21BMVEX///+iq8iiqsjt7/Wpscz4+fvz9Pe/xdnGy9yhr8/m6vLm6PDx8/ivutaNncPb4OzT2ei8xdyxuNCfrc/N0eDDzOC0v9mqttS4vtXX3OmTosYAWpzgOj4AVJkAUJcAT5feKi/fMjYoaaMASpXhP0PeHSPiSk364uKCpcYYY6D86+vtmZvjVln60NDuoKH7//+bttBRh7Wpwdi1yt01dKqPrsva6/T0rq/rgYLnb3D/9PLsiYtmg7TU5O9vmb9hkbvmZ2n0urz0xsfcAA/3ubm/2OhKfq/kX2J6lbwo4gYuAAAEjUlEQVR4nO3cC1PaShyH4W0Ur1j0tCoYcuUSARFEFAgFCq3W7/+J+t8QziCKB2cOIvpmJpBsMCzP/HaTbNIqJdMXmQ82lNo4ilc2ZU4cxCv/lh6npkozx7Lyjyykt+LSrzKn9Gd3Zd6W3W2dxiu78hH1TeadfSlNy8KZzPvf4z86ks+mDielO5Nv24srolcOM3E9ol19mdThcGpl73jql0QLp8lxaVS7E9ld8iTespOJF9JSuqVLT+M6J07jb92f/Gpd52iz3stiWMY0ljEfa/t/wTKmsYwnWMY01mQlwjIWwzrOxJ89mWBN6vwC1ilYYIEFFlirxTp5BVb6s2ORLLCWg/UfzdAAi2SBBRZYYIEFFlhggQUWWGCBBRZYYIG1plivGYP/9Fgki2SRLLDAAgssOniSBdbKsWiGJAsssMD6oFh08CSLZK0ci2SBBRZY64RFB0+yVo/Fv90hWWCBBdYaYXHqQLLAWjkWzZBkgbVyLJohyQJr5Vg0Q5L1MtYGWAv/N3ZHJGsxrIf6lV8q+Vf1XbBexPquGr5lW6ZM8ta8juoA1rNYG2e+E0mNJyvXPANrHlY9p6lsq+T7pShgltV4DssAS93khMppNm5rStVu601HVnMNkvUcVkOsrNK1KrfanU67VVYNU8KVu0uBNYv1bc8Wq2YybHuuJ5PrdcPbpmiVjlJgzWLdW2JVq+a9bDx5xSDpS0ssgTWL9UP357eBJ1ZeQSb97gU9XdoDawZLgmXfqKIYuZVAqaDi6mipc8lbnwvpx1jJkjS42qUreQrGFau6xbJUQKLlJ0jWI6xD27QGqii5qkbVSohWWY0TZ6UWwpr8ko+PVbdN+zooZL1OmG9Vfg4vLi5GI3kJog0k6xFWX7qsu6GbdX+HvyrdYqtQyXYq+VaneufoTos+awbL6bUEazTGkqXWZSFbfCXW+0jW9lsk67cQDcNf3bYk6zLbGVVGhdY6Yi07WTeTPqutPNf9OSy47uWlvIwasqHx/rGMt8TSR8O+ysvRMFDlskqUw7Csypl9dSXtc7Gj4efps/b0dU0tOhMNxxUr57u165ukLk++/2S9/Rl8I8zrS8KhcIXDvOe2o1MKOf8C6+m1YSkxklP4rFv88yevFwrVDT1gegfW7KhDU1iu1NDVow5e9OKOdN5Mk1GHJ1i9nGnaAxUUC9EgjVe4CGrSu5v2AVizWGfqxpFs+beq2pVLxGK3qnq+HimtM1L63Bh839aD7oNeTderdjfQty+cPmPwz9/dOde3KCzHvB8M7s3opph1zq2wefcNH0p2dMNQJv1u+w8KrLl3pJPn5thJg5nniU2wXnrWIfGj7zu24/j9r4nxt4E1/8GQTb3Lwy2eouH5rGVg8XwWWGCBBRZYj7A+x7AyyQLrXWPRDEkWWGCBBRZYYIEFFlhgfVAsLndIFlhggQUWWGBx6kCywAILLLDAAgsssMD6oFgrO4M31hCLZIG1HCwupEkWWGCBBRZYYIEFFlhggQUWWFxIkyyw1gmLZkiywAILLLDA4mi4pGSlwSJZNEOSBRZYYL0K6y+C+nSCLuG7kAAAAABJRU5ErkJggg==");
+    min-height: 1vh;
+}
+
 .cubs-bg{
     background-image: url("https://cdn.vox-cdn.com/thumbor/IOR-1Wyd-YZgYUHwav2IYkR6Lvc=/0x501:6246x3066/1200x800/filters:focal(2758x933:3756x1931)/cdn.vox-cdn.com/uploads/chorus_image/image/62976681/usa_today_10888458.0.jpg");
-    min-height: 40vh;
+    min-height: 60vh;
     background-size: cover;
     bottom: 80%;
 }
-.bg-title{
-    background-color: rgb(255, 0, 34);
-    max-height: 200px;
-    margin: auto;
-    box-shadow: 1px 2px 2px;
-    
-}
+
 .card-header{
     background-color: white;
-    width: 50%;
-    margin: 40px;
+    width: 80%;
     box-shadow: 1px 2px 2px;
 }
 
@@ -22,7 +20,7 @@
     position: relative;
 }
 
-@media screen and (min-width: 730px){
+@media screen and (min-width: 768px){
 .bg-series{
     
     position: absolute;
@@ -34,8 +32,8 @@
 }
 .bg-series{
     background-color: red;
-    box-shadow: 1px 2px 2px;
-
+    box-shadow: 1px 1px 1px;
+    border-radius: 2%;
 }
 
 .ws-text{
